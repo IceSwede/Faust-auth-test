@@ -20,12 +20,13 @@ export default function Login() {
       }}>
       <div>
         <p>
-          After logging in, check{' '}
+          After logging in, check the{' '}
           <span>
             <Link href='/current-user'>
               <a>/current-user</a>
             </Link>
-          </span>
+          </span>{' '}
+          route
         </p>
         <div>
           <label htmlFor='usernameEmail'>Username or Email</label>
